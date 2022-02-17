@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Welcome</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body onload="setTimeout(load_lo, 4000)"> 
+  <div class="container">
+    <nav>
+      <ul>
+        <li id="about">/about</li>
+        <li id="contact">/contact</li>
+		<li id="contact"><a href="https://foolshonor.github.io/404">/more</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1><span id="typed"></span></h1>
+      <h3>to wining is to make sense out of nonsense</h3>
+      <ul>
+        <li>
+          <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        </li>
+        <li>
+          <a href="https://www.udemy.com" target="_blank">Udemy</a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </li>
+        <li>
+          <a href="https://github.com" target="_blank">Github</a>
+        </li>
+        <li>
+          <a href="https://codepen.io" target="_blank">Codepen</a>
+        </li>
+      </ul>
+    </main>
+  </div>
+
+  <div class="hidden">
+    <div id="about-content">
+      <h2>about-me:$<span class="cursor">|</span></h2>
+      <p>Im Fools Honor, I enjoy creating things that live on the internet!</p>
+      <p>
+        Some of the languages that I am fluent in include JavaScript, Python,
+        HTML and CSS
+      </p>
+	  <p>
+        never forget your coffe and continue coding! 
+      </p>
+    </div>
+
+    <div id="contact-content">
+      <h2>contact-me:$<span class="cursor">|</span></h2>
+      <p>You can contact me at the email and social below</p>
+      <ul>
+	    <li><p>Email: TheFoolsHonor@gmail.com</p></li>
+        <li style="color:#000000;"><a href="https://twitter.com/TheFoolsHonor" target="_blank" >my twitter</li>
+		<li style="color:#000000;"><a href="https://www.instagram.com/thefoolshonor/">my instagram</a></li>
+		<li style="color:#000000;"><a href="https://www.reddit.com/user/TheFoolsHonor">my reddit</a></li>
+		<li style="color:#000000;"><a href="https://www.facebook.com/TheFoolsHonor">my facebook</a></li>
+      </ul>
+    </div>
+	
+	<div id="more-content">
+      <h2>more:$<span class="cursor">|</span></h2>
+      <p style="color:#000000;">You can contact me at the email and social below</p>
+      <ul>
+        <li style="color:#000000;"><a href="https://twitter.com/TheFoolsHonor">my twitter</a></li>
+        <li style="color:#000000;">Email: TheFoolsHonor@gmail.com</li>
+      </ul>
+    </div>
+  </div>
+<div id="loader_ld" class="loader-wrapper">
+  <div class="loader"></div>
+</div>
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+  var typed = new Typed('#typed', {
+    strings: ['npm install^4500', 'installing components^1000', 'Fetching from source...^1000',  'The Fools Honor:$'],
+    typeSpeed: 0,
+    backSpeed: 0,
+    loop: false
+  });
+    
+  </script>
+  <script src="js/winbox.bundle.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/js1.js"></script>
+  <script>
+  function load_lo() {
+  document.getElementById("loader_ld").style.display='none';
+  }
+  </script>
+  <script>
+  (function ras() {
+      src="js/winbox.bundle.js",
+    })()
+  </script>
+</body>
+
+</html>
